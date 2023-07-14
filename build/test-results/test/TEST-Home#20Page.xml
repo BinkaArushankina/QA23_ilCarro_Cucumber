@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home Page" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-11T10:45:36" hostname="DESKTOP-OS617JJ" time="5.262">
+  <properties/>
+  <testcase name="Verify Home Page Title is displayed" classname="Home Page" time="5.262"/>
+  <system-out><![CDATA[
+@navigate
+Scenario: Verify Home Page Title is displayed ?[90m# src/test/resources/features/navigate.feature:4?[0m
+  ?[32mGiven ?[0m?[32mUser launches browser?[0m                 ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.launches_browser()?[0m
+  ?[32mWhen ?[0m?[32mUser opens ilCarro Home Page?[0m           ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.open_ilCarro_HomePage()?[0m
+  ?[32mThen ?[0m?[32mUser verifies Home Page title?[0m          ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.verify_HomePage_title()?[0m
+  ?[32mAnd ?[0m?[32mUser quits browser?[0m                      ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.quit_browser()?[0m
+]]></system-out>
+  <system-err><![CDATA[Juli 11, 2023 12:45:36 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFORMATION: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
